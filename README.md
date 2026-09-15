@@ -1,36 +1,61 @@
 # Java Basics
 
-A collection of Java fundamentals and small practice programs used while building a foundation in Core Java.
+A collection of small Java exercises used to build a reliable foundation in Core Java before moving into OOP, collections, DSA, concurrency, and backend engineering.
 
-## Topics covered
-
-The repository includes exercises around:
+## Topics
 
 - Java syntax and program structure
 - Variables and data types
 - Operators
-- Conditions and decision making
+- Conditions
 - Loops
 - Methods
 - Arrays
 - Strings
-- Object and class basics
-- Call stack and basic execution concepts
+- Classes and objects
+- Basic execution and call-stack concepts
 
-The repository also contains compiled `.class` files from local Java practice. These are generated artifacts and can eventually be removed from version control in favor of compiling them locally.
+## Learning Path
 
-## Learning direction
+```text
+Java Basics
+   ↓
+OOP
+   ↓
+Collections
+   ↓
+Exceptions + Generics
+   ↓
+Streams + Concurrency
+   ↓
+JVM Internals
+   ↓
+DSA
+   ↓
+Backend Development
+```
 
-This repository forms the foundation for the larger Core Java roadmap:
+## Getting Started
 
-**Basics → OOP → Collections → Exceptions → Generics → Streams → Concurrency → JVM Internals → DSA → Backend**
+```bash
+git clone https://github.com/majordevbhargav/Basics.git
+cd Basics
+```
 
-## Future goal
+Compile an individual program with a JDK:
 
-Use these fundamentals to write larger Java programs, understand what the JVM is doing underneath the code, and eventually build production-style backend and network-oriented applications.
+```bash
+javac Program.java
+java Program
+```
+
+## Repository Notes
+
+The repository may contain compiled `.class` files generated during local practice. These are build artifacts and can be regenerated from the Java source files.
 
 ## Author
 
 **Dev Bhargav**
 
-GitHub: https://github.com/majordevbhargav
+- GitHub: https://github.com/majordevbhargav
+- LinkedIn: https://www.linkedin.com/in/devbhargav100
